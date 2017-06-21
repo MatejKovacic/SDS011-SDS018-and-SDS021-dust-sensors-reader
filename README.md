@@ -21,7 +21,7 @@ $ python dust-sensor-read.py
 ```
 or:
 ```sh
-python dust.py /dev/ttyUSB1
+python dust-sensor-read.py /dev/ttyUSB1
 ```
 
 ### About

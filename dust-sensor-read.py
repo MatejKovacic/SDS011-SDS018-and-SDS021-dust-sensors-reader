@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Application for reading data from SDS011, SDS018 and SDS021 dust sensors.
-# USAGE: "python dust.py" or "python dust.py /dev/ttyUSB1"
+# USAGE: "python dust-sensor-read.py" or "python dust-sensor-read.py /dev/ttyUSB1"
 #
 # Forked from: https://github.com/aqicn/sds-sensor-reader
 # Credits: Matjaz Rihtar, Matej Kovacic

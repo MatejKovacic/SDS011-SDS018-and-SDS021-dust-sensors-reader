@@ -43,8 +43,8 @@ class SDS021Reader:
                 elif step > 8:
                     step = 0
                     # Compute PM2.5 and PM10 values
-                    pm25 = values[0] + values[1]*256
-                    pm10 = values[2] + values[3]*256
+                    pm25 = (values[1]*256 + values[0])/10
+                    pm10 = (values[3]*256 + values[2])/10
                     return [pm25,pm10]
 
                 elif step >= 2:

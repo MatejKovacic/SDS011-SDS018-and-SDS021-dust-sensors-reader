@@ -43,8 +43,8 @@ class SDS021Reader:
                 elif step > 8:
                     step = 0
                     # Compute PM2.5 and PM10 values
-                    pm25 = (values[1]*256 + values[0])/10
-                    pm10 = (values[3]*256 + values[2])/10
+                    pm25 = (values[1]*256 + values[0])/10.0
+                    pm10 = (values[3]*256 + values[2])/10.0
                     return [pm25,pm10]
 
                 elif step >= 2:
@@ -60,7 +60,7 @@ class SDS021Reader:
                 values = self.readValue()
                 species[0].append(values[0])
                 species[1].append(values[1])
-                print("PM2.5: %.0f, PM10: %.0f" % (values[0], values[1]))
+                print("PM2.5: {}, PM10: {}".format(values[0], values[1]))
                 time.sleep(1)  # wait for one second
             except KeyboardInterrupt:
                 print("Quit!")

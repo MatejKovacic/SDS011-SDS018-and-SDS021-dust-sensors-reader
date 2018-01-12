@@ -25,4 +25,4 @@ python dust-sensor-read.py /dev/ttyUSB1
 ```
 
 ### About
-This code is a fork from https://github.com/aqicn/sds-sensor-reader. It was developed by Matjaž Rihtar and Matej Kovačič as a part of a BlueSensor project. BlueSensor project is developing hardware and software for collecting data from cheap sensors and visualise them via web interface. More about the BlueSensor project: https://pravokator.si/index.php/tag/bluesensor/.
+This code is a fork from https://github.com/aqicn/sds-sensor-reader. It was developed by Matjaž Rihtar and Matej Kovačič as a part of a BlueSensor project. BlueSensor project is developing hardware and software for collecting data from cheap sensors and visualise them via web interface. More about the BlueSensor project: https://telefoncek.si/tag/BlueSensor/.

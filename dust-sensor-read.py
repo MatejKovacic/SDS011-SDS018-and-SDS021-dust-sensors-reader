@@ -12,7 +12,7 @@ import time
 import serial
 
 # Reopen sys.stdout with buffer size 0 (unbuffered)
-sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
+sys.stdout = os.fdopen(sys.stdout.fileno(), 'w')
 
 # Set default USB port
 USBPORT = "/dev/ttyUSB0"
